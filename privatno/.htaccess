@@ -1,0 +1,5 @@
+
+    AuthType Basic
+    AuthUserFile '/var/www/WebDiP/2012_projekti/WebDiP2012_024/privatno/korisnici.txt'
+    AuthName "Administracija sustava"
+    Require valid-user

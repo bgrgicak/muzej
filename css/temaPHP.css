@@ -1,0 +1,290 @@
+.HTML{
+    width: 95%;
+    height: 95%;
+}
+.BODY{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 5px;
+}
+.menuTop{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3px;
+    width: 103%;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.menuLeft{
+    position: absolute;
+    left: 5px;
+    top: 36px;
+    width: 155px;
+    height: 98%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    left: 10px;
+    top: 3px;
+    display:block;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.button2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2px;
+    top: 3px;
+    display:block;
+    font-size: 16px;
+    color: black;
+    width: 80%;
+    text-decoration: none;
+}
+.button3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 7px;
+    top: 3px;
+    display:block;
+    font-size: 16px;
+    color: black;
+    width: 80%;
+    text-decoration: none;
+}
+.button4{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 12px;
+    top: 3px;
+    display:block;
+    font-size: 16px;
+    color: black;
+    width: 80%;
+    text-decoration: none;
+}
+.button8{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left:30%;
+    top: 5px;
+    display:block;
+    font-size: 16px;
+    color: black;
+    width: 80%;
+    text-decoration: none;
+}
+.button5{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 15px;
+    top: 3px;
+    display:block;
+    font-size: 16px;
+    color: black;
+    width: 80%;
+    text-decoration: none;
+}
+.button6{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3px;
+    display:block;
+    font-size: 28px;
+    color: black;
+    width: 80%;
+    text-decoration: none;
+}
+.button7{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    bottom:12px;
+    color: black;
+    left: 90%;
+    width: 4%;
+    border:1px solid black;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.searchINP{
+    position: absolute;
+    bottom: 1px;
+    left: 65%;
+    font-size: 19px;
+    height: 20px;
+    width: 90px;
+}
+.searchBTN{
+    position: absolute;
+    top: 3px;
+    left: calc(65% + 110px);
+    font-size: 15px;
+    text-align: center;
+    height: 26px;
+    font-weight: bold; 
+}
+.main{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 100px;
+    top: 6px;
+    width: calc(100% - 140px);
+    height: calc(100% - 52px);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display:block;
+    overflow-y: scroll;
+    font-size: 22px;
+}
+.foot{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top:10px;
+    left:100px;
+    padding-bottom: 1px;
+    font-size: 16px;
+    width: calc(100% - 140px);
+    height: 35px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.centar{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+.centar1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+    color: black;
+    text-align: center;
+    
+}
+.centar1 td{
+    width: 300px;
+    border-spacing:40px;
+}
+.labela{
+    font-size: 12px;
+    color: black;
+    
+}
+.error{
+    visibility: hidden;
+}
+.topKOS{
+    position: absolute;
+    top: 3px;
+    left: 89%;
+    font-size: 18px;
+    text-align: center;
+    height: 26px;
+    font-weight: bold; 
+    color: black;
+    text-decoration: none;
+}
+.topZAH{
+    position: absolute;
+    top: 3px;
+    left: 82%;
+    font-size: 18px;
+    text-align: center;
+    height: 26px;
+    font-weight: bold; 
+    color: red;
+    text-decoration: none;
+}
+.topUNAME{
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    font-size: 18px;
+    text-align: center;
+    height: 26px;
+    font-weight: bold; 
+    color: black;
+    text-decoration: none;
+}
+.topUNAME1{
+    position: absolute;
+    top: 3px;
+    left: 95%;
+    font-size: 18px;
+    text-align: center;
+    height: 26px;
+    font-weight: bold; 
+    color: black;
+    text-decoration: none;
+}
+.slikaM{
+    width:30px; 
+    height:30px;
+}
+.omot{
+    border:1px solid black;
+    border-radius: 4px;
+}
+td.omot{
+    width: 160px;
+    height: 50%;
+}
+.slika{
+    width:180px;
+    height: 180px;
+}
+.slikaV{
+    max-width:500px;
+    max-height: 500px;
+}
+.star{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+    height: 20px;
+}
+#ludaTAB{
+    text-align: center;
+}
+
+.fokus{
+	border: 2px solid green;
+}
+.greska{
+	border: 2px solid red;
+}
+.hov{
+	background-color: cadetblue;
+}
